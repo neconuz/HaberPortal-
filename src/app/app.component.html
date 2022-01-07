@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="">Ana Sayfa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="spor">Spor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="magazin">Magazin</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link disabled"></a>
+          </li>
+        </ul>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="giris" role="tab" aria-controls="Giriş Yap" aria-selected="true">Giriş Yap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-profile-tab" data-toggle="pill" href="kayıt" role="tab" aria-controls="kaydol" aria-selected="false">Üye Ol</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="admin" role="tab" aria-controls="Giriş Yap" aria-selected="true">Yönetici Girişi</a>
+            </li>
+        
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"></div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"></div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"></div>
+          </div>
+      </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
